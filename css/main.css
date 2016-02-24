@@ -4,8 +4,6 @@
  * global base styles and fonts
  */
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,700);
-
 .clearfix::after {
   content: "";
   display: table;
