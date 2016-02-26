@@ -113,49 +113,45 @@
             </div>
 
           </fieldset>
-        </form>
-      </section>
 
-       <hr class="section-break">
+           <hr class="section-break">
+    
+          <section id="newsletter">
+            <fieldset>
+                <legend>Newsletter</legend>
+                <label class="newsletter-label">Select the newsletters you would like to receive</label><br>
+                <div class="newsletter-item first-col .clearfix">
+                  
+                  <input type="checkbox" id="html_news" value="html_news" name="user_news"><label class="check-label" for="html_news">HTML News</label><br>
+                  <input type="checkbox" id="css_news" value="css_news" name="user_news"><label class="check-label" for="css_news">CSS News</label><br>
+                  <input type="checkbox" id="js_news" value="js_news" name="user_news"><label class="check-label" for="js_news">JavaScript News</label><br>
+                  </div>
+                  <div class="newsletter-item second-col .clearfix">
+                  <input type="checkbox" id="php_news" value="php_news" name="user_news"><label class="check-label" for="php_news">PHP News</label><br>
+                  <input type="checkbox" id="ruby_news" value="ruby_news" name="user_news"><label class="check-label" for="ruby_news">Ruby News</label><br>
+                  <input type="checkbox" id="python_news" value="python_news" name="user_news"><label class="check-label" for="python_news">Python News</label><br>
+                </div>
+    
+                <label>Newsletter format</label><br>
+                <div class="newsletter-item .clearfix">
+                  <input type="radio" id="html_format" value="html_format" name="user_format"><label class="radio-label" for="html_format">HTML Format</label><br>
+                  <input type="radio" id="plain_format" value="plain_format" name="user_format"><label class="radio-label" for="plain_format">Plain Text Format</label><br>
+                </div>
+    
+                <div class="newsletter-item">
+                  <label>Other topics you'd like to hear about</label><br>
+                  <textarea id="other_topics" name="user_other"></textarea>
+                </div>
+            </fieldset>
+          </section>
+        
+        </section>
 
-      <section id="newsletter">
-        <form id="newsletter-form">
-          <fieldset>
-            <legend>Newsletter</legend>
-            <label class="newsletter-label">Select the newsletters you would like to receive</label><br>
-            <div class="newsletter-item first-col .clearfix">
-              
-              <input type="checkbox" id="html_news" value="html_news" name="user_news"><label class="check-label" for="html_news">HTML News</label><br>
-              <input type="checkbox" id="css_news" value="css_news" name="user_news"><label class="check-label" for="css_news">CSS News</label><br>
-              <input type="checkbox" id="js_news" value="js_news" name="user_news"><label class="check-label" for="js_news">JavaScript News</label><br>
-              </div>
-              <div class="newsletter-item second-col .clearfix">
-              <input type="checkbox" id="php_news" value="php_news" name="user_news"><label class="check-label" for="php_news">PHP News</label><br>
-              <input type="checkbox" id="ruby_news" value="ruby_news" name="user_news"><label class="check-label" for="ruby_news">Ruby News</label><br>
-              <input type="checkbox" id="python_news" value="python_news" name="user_news"><label class="check-label" for="python_news">Python News</label><br>
-            </div>
-
-            <label>Newsletter format</label><br>
-            <div class="newsletter-item .clearfix">
-              <input type="radio" id="html_format" value="html_format" name="user_format"><label class="radio-label" for="html_format">HTML Format</label><br>
-              <input type="radio" id="plain_format" value="plain_format" name="user_format"><label class="radio-label" for="plain_format">Plain Text Format</label><br>
-            </div>
-
-            <div class="newsletter-item">
-              <label>Other topics you'd like to hear about</label><br>
-              <textarea id="other_topics" name="user_other"></textarea>
-            </div>
-
-
-          </fieldset>
-        </form>
-      </section>
-
-      <section id="submit">
-        <button id="submit_button" type="submit">Sign Up</button>
-        <hr>
-      </section>
-
+        <section id="submit">
+          <button id="submit_button" type="submit">Sign Up</button>
+          <hr>
+        </section>
+      </form>
       <footer id="footer">
         <div id="copyright">
           <p>&copy; Copyright 2015 | The Code Review</p>
